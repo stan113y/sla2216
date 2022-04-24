@@ -282,59 +282,47 @@ DocumentPath=out\sla2216.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=out\sla2216.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=out\sla2216.G1
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=out\sla2216.G2
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=out\sla2216.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=out\sla2216.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=out\sla2216.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=out\sla2216.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=out\sla2216.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=out\sla2216.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=out\sla2216.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=out\sla2216.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument15]
 DocumentPath=out\sla2216.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
-DocumentPath=out\sla2216.REP
+[GeneratedDocument5]
+DocumentPath=out\sla2216_Board.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument17]
-DocumentPath=out\sla2216.RUL
+[GeneratedDocument6]
+DocumentPath=out\sla2216_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=out\sla2216_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=out\sla2216_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=out\sla2216_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=out\sla2216_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=out\sla2216_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=out\sla2216_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=out\sla2216_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=out\sla2216_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [Configuration1]
@@ -627,71 +615,75 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=NC Drill
+OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\Projects\Hardware\sla2216\sla2216.PcbDoc
+OutputType2=Mask
+OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Board Stack Report
-OutputName3=Report Board Stack
+OutputType3=IPC2581
+OutputName3=IPC-2581 Files
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=Test Points
+OutputName4=Test Point Report
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber X2
-OutputName5=Gerber X2 Files
+OutputType5=Plane
+OutputName5=Power-Plane Prints
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=Mask
-OutputName7=Solder/Paste Mask Prints
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=NC Drill
-OutputName8=NC Drill Files
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-Configuration8_Name1=ForceUpdateSettings
-Configuration8_Item1=False
-Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\Projects\Hardware\sla2216\sla2216.PcbDoc
-OutputType9=IPC2581
-OutputName9=IPC-2581 Files
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Plane
-OutputName10=Power-Plane Prints
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Test Points
-OutputName11=Test Point Report
+Configuration10_Name1=ForceUpdateSettings
+Configuration10_Item1=False
+Configuration10_Name2=OutputConfigurationParameter1
+Configuration10_Item2=BoardID=UJFWJUBU|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GenerateReports=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=False|PlotBoardProfileFileName=sla2216_Profile.gbr|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_FileName=sla2216_Drawing_1.gbr|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_Checked=False|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_FileName=sla2216_Drillmap_1.gbr|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_Checked=False|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName=sla2216_NPTH_Drill.gbr|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_Checked=False|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName=sla2216_PTH_Drill.gbr|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_Checked=False|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777218~1,16777219~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16908292~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|UserLayerName.Caption0=sla2216_Bottom_3D_Body.gbr|UserLayerName.Caption1=sla2216_Paste_Top.gbr|UserLayerName.Caption10=sla2216_Top_Component_Center.gbr|UserLayerName.Caption11=sla2216_Copper_Signal_2.gbr|UserLayerName.Caption12=sla2216_Polys.gbr|UserLayerName.Caption13=sla2216_Copper_Signal_Bot.gbr|UserLayerName.Caption14=sla2216_Top_Assembly.gbr|UserLayerName.Caption15=sla2216_Mechanical_15.gbr|UserLayerName.Caption16=sla2216_Copper_Signal_Top.gbr|UserLayerName.Caption17=sla2216_Legend_Bot.gbr|UserLayerName.Caption18=sla2216_Pads_Top.gbr|UserLayerName.Caption19=sla2216_Mechanical_13.gbr|UserLayerName.Caption2=sla2216_Legend_Top.gbr|UserLayerName.Caption20=sla2216_Bottom_Courtyard.gbr|UserLayerName.Caption21=sla2216_Mechanical_11.gbr|UserLayerName.Caption22=sla2216_Mechanical_1.gbr|UserLayerName.Caption23=sla2216_Bottom_Component_Center.gbr|UserLayerName.Caption24=sla2216_Top_Courtyard.gbr|UserLayerName.Caption25=sla2216_Bottom_Assembly.gbr|UserLayerName.Caption26=sla2216_Paste_Bot.gbr|UserLayerName.Caption3=sla2216_Soldermask_Top.gbr|UserLayerName.Caption4=sla2216_Board.gbr|UserLayerName.Caption5=sla2216_Top_3D_Body.gbr|UserLayerName.Caption6=sla2216_Keep-out.gbr|UserLayerName.Caption7=sla2216_Pads_Bot.gbr|UserLayerName.Caption8=sla2216_Copper_Signal_1.gbr|UserLayerName.Caption9=sla2216_Soldermask_Bot.gbr|UserLayerName.Count=27|UserLayerName.Layer0=16908311|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16908304|UserLayerName.Layer11=16777219|UserLayerName.Layer12=16908294|UserLayerName.Layer13=16842751|UserLayerName.Layer14=16908293|UserLayerName.Layer15=16908303|UserLayerName.Layer16=16777217|UserLayerName.Layer17=16973831|UserLayerName.Layer18=16973848|UserLayerName.Layer19=16908301|UserLayerName.Layer2=16973830|UserLayerName.Layer20=16908309|UserLayerName.Layer21=16908299|UserLayerName.Layer22=16908289|UserLayerName.Layer23=16908312|UserLayerName.Layer24=16908291|UserLayerName.Layer25=16908308|UserLayerName.Layer26=16973833|UserLayerName.Layer3=16973834|UserLayerName.Layer4=16908292|UserLayerName.Layer5=16908290|UserLayerName.Layer6=16973837|UserLayerName.Layer7=16973849|UserLayerName.Layer8=16777218|UserLayerName.Layer9=16973835|DocumentPath=D:\Projects\Hardware\sla2216\sla2216.PcbDoc
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType12=Gerber
 OutputName12=Gerber Files
 OutputDocumentPath12=
@@ -700,7 +692,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973831~1,16908292~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=D:\Projects\Hardware\sla2216\sla2216.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=UJFWJUBU|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=False|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973831~1,16908292~1|PlotBoardProfile=False|PlotBoardProfileFileName=sla2216_Profile.gbr|PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_FileName=sla2216_Drawing_1.gbr|PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_Checked=False|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillGuideLayerPair0_Backdrill=False|PlotDrillGuideLayerPair0_DrillType=Regular|PlotDrillGuideLayerPair0_FileName=sla2216_Drillmap_1.gbr|PlotDrillGuideLayerPair0_HighLayer=Bottom Layer|PlotDrillGuideLayerPair0_Checked=False|PlotDrillGuideLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|UserLayerName.Caption0=sla2216_Bottom_3D_Body.gbr|UserLayerName.Caption1=sla2216_Paste_Top.gbr|UserLayerName.Caption10=sla2216_Top_Component_Center.gbr|UserLayerName.Caption11=sla2216_Copper_Signal_2.gbr|UserLayerName.Caption12=sla2216_Polys.gbr|UserLayerName.Caption13=sla2216_Copper_Signal_Bot.gbr|UserLayerName.Caption14=sla2216_Top_Assembly.gbr|UserLayerName.Caption15=sla2216_Mechanical_15.gbr|UserLayerName.Caption16=sla2216_Copper_Signal_Top.gbr|UserLayerName.Caption17=sla2216_Legend_Bot.gbr|UserLayerName.Caption18=sla2216_Pads_Top.gbr|UserLayerName.Caption19=sla2216_Mechanical_13.gbr|UserLayerName.Caption2=sla2216_Legend_Top.gbr|UserLayerName.Caption20=sla2216_Bottom_Courtyard.gbr|UserLayerName.Caption21=sla2216_Mechanical_11.gbr|UserLayerName.Caption22=sla2216_Mechanical_1.gbr|UserLayerName.Caption23=sla2216_Bottom_Component_Center.gbr|UserLayerName.Caption24=sla2216_Top_Courtyard.gbr|UserLayerName.Caption25=sla2216_Bottom_Assembly.gbr|UserLayerName.Caption26=sla2216_Keep-out.gbr|UserLayerName.Caption3=sla2216_Soldermask_Top.gbr|UserLayerName.Caption4=sla2216_Board.gbr|UserLayerName.Caption5=sla2216_Top_3D_Body.gbr|UserLayerName.Caption6=sla2216_Pads_Bot.gbr|UserLayerName.Caption7=sla2216_Paste_Bot.gbr|UserLayerName.Caption8=sla2216_Copper_Signal_1.gbr|UserLayerName.Caption9=sla2216_Soldermask_Bot.gbr|UserLayerName.Count=27|UserLayerName.Layer0=16908311|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16908304|UserLayerName.Layer11=16777219|UserLayerName.Layer12=16908294|UserLayerName.Layer13=16842751|UserLayerName.Layer14=16908293|UserLayerName.Layer15=16908303|UserLayerName.Layer16=16777217|UserLayerName.Layer17=16973831|UserLayerName.Layer18=16973848|UserLayerName.Layer19=16908301|UserLayerName.Layer2=16973830|UserLayerName.Layer20=16908309|UserLayerName.Layer21=16908299|UserLayerName.Layer22=16908289|UserLayerName.Layer23=16908312|UserLayerName.Layer24=16908291|UserLayerName.Layer25=16908308|UserLayerName.Layer26=16973837|UserLayerName.Layer3=16973834|UserLayerName.Layer4=16908292|UserLayerName.Layer5=16908290|UserLayerName.Layer6=16973849|UserLayerName.Layer7=16973833|UserLayerName.Layer8=16777218|UserLayerName.Layer9=16973835|DocumentPath=D:\Projects\Hardware\sla2216\sla2216.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
