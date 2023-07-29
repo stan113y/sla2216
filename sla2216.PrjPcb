@@ -545,40 +545,40 @@ OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=PDF3D MBA
-OutputName8=PDF3D MBA
+OutputType8=Report Print
+OutputName8=Report Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Report Print
-OutputName9=Report Prints
+OutputType9=Schematic Print
+OutputName9=Schematic Prints
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=Schematic Print
-OutputName10=Schematic Prints
+OutputType10=SimView Print
+OutputName10=SimView Prints
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=SimView Print
-OutputName11=SimView Prints
+OutputType11=Harness Layout Drawing Print
+OutputName11=Harness Layout Drawing Prints
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Harness Layout Drawing Print
-OutputName12=Harness Layout Drawing Prints
+OutputType12=Harness Wiring Diagram Print
+OutputName12=Harness Wiring Diagram Prints
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Harness Wiring Diagram Print
-OutputName13=Harness Wiring Diagram Prints
+OutputType13=PCBDrawing
+OutputName13=Draftsman
 OutputDocumentPath13=
-OutputVariantName13=
+OutputVariantName13=[No Variations]
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
@@ -617,7 +617,7 @@ OutputDefault1=0
 Configuration1_Name1=ForceUpdateSettings
 Configuration1_Item1=False
 Configuration1_Name2=OutputConfigurationParameter1
-Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\Projects\Hardware\sla2216\sla2216.PcbDoc
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\Projects\Hardware\sla2216\sla2216.PcbDoc
 OutputType2=Mask
 OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
@@ -671,7 +671,7 @@ OutputDefault10=0
 Configuration10_Name1=ForceUpdateSettings
 Configuration10_Item1=False
 Configuration10_Name2=OutputConfigurationParameter1
-Configuration10_Item2=BoardID=UJFWJUBU|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GenerateReports=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=False|PlotBoardProfileFileName=sla2216_Profile.gbr|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_FileName=sla2216_Drawing_1.gbr|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_Checked=False|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_FileName=sla2216_Drillmap_1.gbr|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_Checked=False|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName=sla2216_NPTH_Drill.gbr|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_Checked=False|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName=sla2216_PTH_Drill.gbr|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_Checked=False|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777218~1,16777219~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16908292~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|UserLayerName.Caption0=sla2216_Bottom_3D_Body.gbr|UserLayerName.Caption1=sla2216_Paste_Top.gbr|UserLayerName.Caption10=sla2216_Top_Component_Center.gbr|UserLayerName.Caption11=sla2216_Copper_Signal_2.gbr|UserLayerName.Caption12=sla2216_Polys.gbr|UserLayerName.Caption13=sla2216_Copper_Signal_Bot.gbr|UserLayerName.Caption14=sla2216_Top_Assembly.gbr|UserLayerName.Caption15=sla2216_Mechanical_15.gbr|UserLayerName.Caption16=sla2216_Copper_Signal_Top.gbr|UserLayerName.Caption17=sla2216_Legend_Bot.gbr|UserLayerName.Caption18=sla2216_Pads_Top.gbr|UserLayerName.Caption19=sla2216_Mechanical_13.gbr|UserLayerName.Caption2=sla2216_Legend_Top.gbr|UserLayerName.Caption20=sla2216_Bottom_Courtyard.gbr|UserLayerName.Caption21=sla2216_Mechanical_11.gbr|UserLayerName.Caption22=sla2216_Mechanical_1.gbr|UserLayerName.Caption23=sla2216_Bottom_Component_Center.gbr|UserLayerName.Caption24=sla2216_Top_Courtyard.gbr|UserLayerName.Caption25=sla2216_Bottom_Assembly.gbr|UserLayerName.Caption26=sla2216_Paste_Bot.gbr|UserLayerName.Caption3=sla2216_Soldermask_Top.gbr|UserLayerName.Caption4=sla2216_Board.gbr|UserLayerName.Caption5=sla2216_Top_3D_Body.gbr|UserLayerName.Caption6=sla2216_Keep-out.gbr|UserLayerName.Caption7=sla2216_Pads_Bot.gbr|UserLayerName.Caption8=sla2216_Copper_Signal_1.gbr|UserLayerName.Caption9=sla2216_Soldermask_Bot.gbr|UserLayerName.Count=27|UserLayerName.Layer0=16908311|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16908304|UserLayerName.Layer11=16777219|UserLayerName.Layer12=16908294|UserLayerName.Layer13=16842751|UserLayerName.Layer14=16908293|UserLayerName.Layer15=16908303|UserLayerName.Layer16=16777217|UserLayerName.Layer17=16973831|UserLayerName.Layer18=16973848|UserLayerName.Layer19=16908301|UserLayerName.Layer2=16973830|UserLayerName.Layer20=16908309|UserLayerName.Layer21=16908299|UserLayerName.Layer22=16908289|UserLayerName.Layer23=16908312|UserLayerName.Layer24=16908291|UserLayerName.Layer25=16908308|UserLayerName.Layer26=16973833|UserLayerName.Layer3=16973834|UserLayerName.Layer4=16908292|UserLayerName.Layer5=16908290|UserLayerName.Layer6=16973837|UserLayerName.Layer7=16973849|UserLayerName.Layer8=16777218|UserLayerName.Layer9=16973835|DocumentPath=D:\Projects\Hardware\sla2216\sla2216.PcbDoc
+Configuration10_Item2=BoardID=UJFWJUBU|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GenerateReports=False|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OutputFormat=Single|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=False|PlotBoardProfileFileName=sla2216_Profile.gbr|PlotCounterHolesPairs=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotViaTypeDrillDrawingPair0_Backdrill=False|PlotViaTypeDrillDrawingPair0_DrillType=Regular|PlotViaTypeDrillDrawingPair0_FileName= |PlotViaTypeDrillDrawingPair0_HighLayer=Bottom Layer|PlotViaTypeDrillDrawingPair0_Checked=True|PlotViaTypeDrillDrawingPair0_LowLayer=Top Layer|PlotViaTypeDrillDrawingPairs=True|PlotViaTypeDrillGuidePair0_Backdrill=False|PlotViaTypeDrillGuidePair0_DrillType=Regular|PlotViaTypeDrillGuidePair0_FileName= |PlotViaTypeDrillGuidePair0_HighLayer=Bottom Layer|PlotViaTypeDrillGuidePair0_Checked=True|PlotViaTypeDrillGuidePair0_LowLayer=Top Layer|PlotViaTypeDrillGuidePairs=True|PlotViaTypeDrillPair0_Backdrill=False|PlotViaTypeDrillPair0_DrillType=Regular|PlotViaTypeDrillPair0_FileName= |PlotViaTypeDrillPair0_HighLayer=Bottom Layer|PlotViaTypeDrillPair0_Checked=True|PlotViaTypeDrillPair0_LowLayer=Top Layer|PlotViaTypeDrillPairs=True|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777218~1,16777219~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16908292~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|UncheckPlotDrillDrawingPair0_Backdrill=False|UncheckPlotDrillDrawingPair0_DrillType=Regular|UncheckPlotDrillDrawingPair0_FileName=sla2216_Drawing_1.gbr|UncheckPlotDrillDrawingPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingPair0_Checked=False|UncheckPlotDrillDrawingPair0_LowLayer=Top Layer|UncheckPlotDrillGuidePair0_Backdrill=False|UncheckPlotDrillGuidePair0_DrillType=Regular|UncheckPlotDrillGuidePair0_FileName=sla2216_Drillmap_1.gbr|UncheckPlotDrillGuidePair0_HighLayer=Bottom Layer|UncheckPlotDrillGuidePair0_Checked=False|UncheckPlotDrillGuidePair0_LowLayer=Top Layer|UncheckPlotNPTHPair0_Backdrill=False|UncheckPlotNPTHPair0_DrillType=Regular|UncheckPlotNPTHPair0_FileName=sla2216_NPTH_Drill.gbr|UncheckPlotNPTHPair0_HighLayer=Top Layer|UncheckPlotNPTHPair0_Checked=False|UncheckPlotNPTHPair0_LowLayer=Bottom Layer|UncheckPlotPTHPair0_Backdrill=False|UncheckPlotPTHPair0_DrillType=Regular|UncheckPlotPTHPair0_FileName=sla2216_PTH_Drill.gbr|UncheckPlotPTHPair0_HighLayer=Top Layer|UncheckPlotPTHPair0_Checked=False|UncheckPlotPTHPair0_LowLayer=Bottom Layer|DocumentPath=D:\Projects\Hardware\sla2216\sla2216.PcbDoc
 OutputType11=Final
 OutputName11=Final Artwork Prints
 OutputDocumentPath11=
@@ -930,36 +930,26 @@ OutputName6=Export VRML
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=MBAExportPARASOLID
-OutputName7=Export PARASOLID
+OutputType7=Save As/Export PCB
+OutputName7=Save As/Export PCB
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=MBAExportSTEP
-OutputName8=Export STEP
+OutputType8=Save As/Export Schematic
+OutputName8=Save As/Export Schematic
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=Save As/Export PCB
-OutputName9=Save As/Export PCB
+OutputType9=Specctra Design PCB
+OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Save As/Export Schematic
-OutputName10=Save As/Export Schematic
+OutputType10=Web ReviewOutputName
+OutputName10=Web Review Data
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=Specctra Design PCB
-OutputName11=Specctra Design PCB
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Web ReviewOutputName
-OutputName12=Web Review Data
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
